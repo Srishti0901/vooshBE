@@ -6,7 +6,8 @@ config.server = {
   SECRET_KEY: process.env.SECRET_KEY || "asiifohowhcoshsdnsj",
   CLIENTID: process.env.OAUTH_CLIENT_ID,
   CLIENT_SECRET: process.env.OAUTH_CLIENT_SECRET,
-  REDIRECT_URI: "http://localhost:3000/client/auth/google/callback",
+  REDIRECT_URI:
+    "https://voosh-task-app.netlify.app/client/auth/google/callback",
 };
 
 module.exports = config;
